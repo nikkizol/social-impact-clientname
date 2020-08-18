@@ -13,45 +13,17 @@ header .container {
   padding-top: 40px;
   padding-bottom: 80px;
 }
-
-.ace {
+header .btn .ace {
   font-family: "Bangers", cursive;
   font-size: 40px;
 }
-
-.logo {
+header .btn .ace .logo {
   font-family: "Amatic SC", cursive;
   font-size: 20px;
 }
 
-.carousel-inner {
-  max-width: 90%;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
-
-h3 {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  font-family: "Amatic SC", cursive;
-}
-
-.container1 {
-  text-align: center;
-  width: 550px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container2 {
-  width: 550px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
+nav {
+  float: right;
 }
 
 .nav-link {
@@ -68,14 +40,43 @@ h3 {
   border: 1px solid black;
 }
 
+.carousel-inner {
+  max-width: 90%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.container1 {
+  text-align: center;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: "Amatic SC", cursive;
+}
+
+.container2 {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
 .container3, .container4 {
   padding-top: 270px;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
-
-.card {
+.container3 .card, .container4 .card {
   padding: 20px;
 }
 

@@ -15,47 +15,24 @@ header {
     padding-top: 40px;
     padding-bottom: 80px;
   }
+
+  .btn {
+    .ace {
+      font-family: 'Bangers', cursive;
+      font-size: 40px;
+
+      .logo {
+        font-family: 'Amatic SC', cursive;
+        font-size: 20px;
+      }
+
+    }
+  }
 }
 
-.ace {
-  font-family: 'Bangers', cursive;
-  font-size: 40px;
-}
-
-.logo {
-  font-family: 'Amatic SC', cursive;
-  font-size: 20px;
-}
-
-.carousel-inner {
-  max-width: 90%;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-
-}
-
-h3 {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  font-family: 'Amatic SC', cursive;
-}
-
-.container1 {
-  text-align: center;
-  width: 550px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container2 {
-  width: 550px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
+//Nav bar start
+nav {
+  float: right;
 }
 
 .nav-link {
@@ -72,16 +49,50 @@ h3 {
   border: 1px solid black;
 }
 
+//Nav bar end
+
+.carousel-inner {
+  max-width: 90%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+
+
+.container1 {
+  text-align: center;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.container2 {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
 .container3, .container4 {
   padding-top: 270px;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 
-}
-
-.card {
-  padding: 20px;
+  .card {
+    padding: 20px;
+  }
 }
 
 .anchor {
