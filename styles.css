@@ -17,7 +17,8 @@ header .btn .ace {
   font-family: "Bangers", cursive;
   font-size: 40px;
 }
-header .btn .ace .logo {
+
+.logo {
   font-family: "Amatic SC", cursive;
   font-size: 20px;
 }
@@ -78,6 +79,13 @@ h3 {
 }
 .container3 .card, .container4 .card {
   padding: 20px;
+}
+.container3 .serv, .container4 .serv {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
 }
 
 .anchor {
